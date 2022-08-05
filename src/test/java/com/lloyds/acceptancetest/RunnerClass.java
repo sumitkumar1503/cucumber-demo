@@ -8,7 +8,13 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         glue = {"com.lloyds.stepdefs"},
         features = "src/test/resources/",
-        stepNotifications = true
+        stepNotifications = true,
+        plugin = {
+                "pretty",
+                "json:target/cucumber/cucumber.json",
+                "html:target/cucumber/cucumber.html"
+
+        }
 
 )
 public class RunnerClass {
