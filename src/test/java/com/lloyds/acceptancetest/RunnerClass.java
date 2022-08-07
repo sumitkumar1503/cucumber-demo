@@ -5,6 +5,8 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         monochrome = true,
@@ -19,7 +21,4 @@ import org.junit.runner.RunWith;
         }
 )
 public class RunnerClass {
-
-
-
 }

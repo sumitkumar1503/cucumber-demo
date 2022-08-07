@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60f0a073-14b0-4380-96e9-fbb7852ebb8a" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lloyds/acceptancetest/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lloyds/acceptancetest/RunnerClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,25 +50,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunnerClass">
-    <configuration name="Feature: Addition" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/lloyds/Addition.feature" />
-      <option name="GLUE" value="com.lloyds" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DemoCucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Addition" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Add two number (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Addition.feature" />
@@ -109,6 +90,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in DemoCucumber (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoCucumber" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in DemoCucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoCucumber" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,9 +125,9 @@
       <list>
         <item itemvalue="JUnit.RunnerClass" />
         <item itemvalue="Cucumber Java.Scenario: Add two number (1)" />
+        <item itemvalue="JUnit.All in DemoCucumber (1)" />
         <item itemvalue="JUnit.All in DemoCucumber" />
         <item itemvalue="Cucumber Java.Scenario: Add two number" />
-        <item itemvalue="Cucumber Java.Feature: Addition" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659884178495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first">
+      <created>1659886149483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659886149483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +191,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/lloyds/acceptancetest/RunnerClass.java</url>
-          <line>20</line>
+          <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
