@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60f0a073-14b0-4380-96e9-fbb7852ebb8a" name="Changes" comment="xyz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lloyds/acceptancetest/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lloyds/acceptancetest/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Addition.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Addition.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659891515783</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xyz">
+      <created>1659892140156</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659892140156</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

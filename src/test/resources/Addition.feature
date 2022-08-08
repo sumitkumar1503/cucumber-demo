@@ -1,4 +1,6 @@
+
 Feature: Addition validation
+  @test
   Scenario Outline: Add two number
     Given I have two number "<num1>" and "<num2>"
     When  I call addition method
